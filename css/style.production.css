@@ -276,6 +276,11 @@ td{
     grid-row: 1 / 3;
   } 
   */
+  .grid__item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
 
 
   button{

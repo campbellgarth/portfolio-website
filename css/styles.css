@@ -240,6 +240,12 @@ table, th, td{
 
 }
 
+.grid__item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: darken( var(--grid-color), 5%);
+}
+
 .grid__item:last-child{
     grid-column-start: 3;
     grid-column-end: 3;
