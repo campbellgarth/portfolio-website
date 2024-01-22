@@ -200,7 +200,7 @@ table, th, td{
 .about-me__blurb{
     margin: 0;
     font-family: 'Roboto';
-    font-weight: var(--standard-font);
+    font-size: var(--standard-font);
 }
 .caption{
     font-size: var(--xsmall-font)
