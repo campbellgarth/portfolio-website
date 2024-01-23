@@ -594,12 +594,27 @@ td{
         width: 50%;
         height: 50%;
     }
-
-    .profile__portrait{
-        width: 125px;
-        float: none;
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
+    .profile__portrait{
+        width: 200px;
+        float: none;
+        justify-content: center;
+    }
+    .navigation-list__item{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .navigation-list li{
+        display: block;
+    }
+    .animation{
+        width: 80%;
+        height: 80%;
+    }
 }
 
 /* for screens between 500px and 750 px change to 2 column grid */
