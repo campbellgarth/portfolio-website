@@ -290,6 +290,9 @@ td{
     grid-row: 1 / 3;
   } 
   */
+  .work {
+    text-align: center;
+}
 
 
   button{
@@ -598,6 +601,7 @@ td{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     }
     .profile__portrait{
         width: 200px;
@@ -612,8 +616,12 @@ td{
         display: block;
     }
     .animation{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .about-me-content{
+        padding: 20px;
     }
 }
 

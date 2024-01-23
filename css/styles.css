@@ -224,6 +224,9 @@ table, th, td{
     font-weight: var(--medium);
 }
 
+.work {
+    text-align: center;
+}
 /* start grid fallback */
 .grid__item {
     display: inline-block;
@@ -442,10 +445,31 @@ table, th, td{
         width: 50%;
         height: 50%;
     }
-
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
     .profile__portrait{
-        width: 125px;
+        width: 200px;
         float: none;
+        justify-content: center;
+    }
+    .navigation-list__item{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .navigation-list li{
+        display: block;
+    }
+    .animation{
+        width: 90%;
+        height: 90%;
+    }
+
+    .about-me-content{
+        padding: 20px;
     }
 }
 
