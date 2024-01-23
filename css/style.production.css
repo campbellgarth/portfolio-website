@@ -596,8 +596,7 @@ td{
     }
 
     .profile__portrait{
-        width: 50%;
-        height: 50%;
+        width: 125px;
         float: none;
     }
     
