@@ -83,7 +83,8 @@ a.button{
    }
 
 
-button {
+button,
+.button {
     /* overwrites browser defaults and resets the browser */
     border: none;
     /*takes the font from the outer container*/
@@ -173,21 +174,49 @@ button:focus {
             align-items: center;
 }
 
-.animation{
-    margin: 20px auto;
-}
-
  .about-me-content__profile{
    font-size: 18px;
    font-family: 'Roboto';
    font-weight: 500;
 } 
 
+table{
+    background-color: #fff;
+    border: 1px solid;
+    text-align: center;
+} 
 
+th{
+    background-color: #fff;
+    border: 1px solid;
+    text-align: center;
+} 
+
+td{
+    background-color: #fff;
+    border: 1px solid;
+    text-align: center;
+}
+
+ .about-me-content__table{
+    width: 50%;
+   
+}
+
+.about-me-content__list{
+    padding: 0;
+    list-style-type: none;
+} 
+
+.about-me-content__list{
+    padding: 0;
+    list-style-type: none;
+} 
 .about-me__blurb{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 43%;
-    
+    margin: 0 auto;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
@@ -215,6 +244,9 @@ button:focus {
     font-weight: 500;
 }
 
+.work {
+    text-align: center;
+}
 /* start grid fallback */
 .grid__item {
     display: inline-block;
@@ -266,12 +298,12 @@ button:focus {
     grid-row: 1 / 3;
   } 
   */
-  .work {
-    text-align: center;
+
+  .animation{
+    margin: 20px auto;
 }
 
-
-  .button{
+  button{
    border:none; /*overwrites browser defaults and resets the border */
    display: inline-block;
    font-family: inherit; /* takes the font family from the outer container */
@@ -279,9 +311,9 @@ button:focus {
    background-color: #357b70;
    color: #ffffff;
    text-decoration: none;
-   margin: 20px auto;
    padding: 9px;
    border-radius: 20px;
+   margin: 20px auto;
    /* width of the border, type, color */
    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
    -webkit-transition-duration: 0.2s;
@@ -293,7 +325,6 @@ button:focus {
    
   }
 
-  button,
   .button{
    border:none; /*overwrites browser defaults and resets the border */
    display: inline-block;
@@ -304,6 +335,7 @@ button:focus {
    text-decoration: none;
    padding: 9px;
    border-radius: 20px;
+   margin: 20px auto;
    /* width of the border, type, color */
    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
    -webkit-transition-duration: 0.2s;
@@ -570,24 +602,39 @@ button:focus {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
+
     .bell_icon{
         width: 50%;
         height: 50%;
     }
     .profile{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding: 20px;
     }
     .profile__portrait{
         width: 200px;
         float: none;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .navigation-list__item{
-        flex-direction: column;
-        align-items: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
     .navigation-list li{
         display: block;
@@ -614,6 +661,7 @@ button:focus {
     .button{
         font-size: 14px;
     }
+
     .caption{
         width: 80%;
         text-align: center;
