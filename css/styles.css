@@ -481,7 +481,7 @@ table, th, td{
     }
     .homepage-intro{
         text-align: center;
-        font-size: var(--small-font);
+        font-size: var(--standard-font);
         width: 90%;
         margin: 0px auto;
     }
