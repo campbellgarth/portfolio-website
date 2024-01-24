@@ -272,6 +272,9 @@ table, th, td{
   } 
   */
 
+  .animation{
+    margin: 20px auto;
+}
 
   button,
   .button{
@@ -284,6 +287,7 @@ table, th, td{
    text-decoration: none;
    padding: 9px;
    border-radius: 20px;
+   margin: 20px auto;
    /* width of the border, type, color */
    border-bottom: 2px solid var(--border-bottom);
    transition-duration: 0.2s;

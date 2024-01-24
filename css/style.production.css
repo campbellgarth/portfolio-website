@@ -173,6 +173,10 @@ button:focus {
             align-items: center;
 }
 
+.animation{
+    margin: 20px auto;
+}
+
  .about-me-content__profile{
    font-size: 18px;
    font-family: 'Roboto';
@@ -183,7 +187,7 @@ button:focus {
 .about-me__blurb{
     flex-wrap: wrap;
     width: 43%;
-    margin: 0 auto;
+    
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
@@ -267,7 +271,7 @@ button:focus {
 }
 
 
-  button{
+  .button{
    border:none; /*overwrites browser defaults and resets the border */
    display: inline-block;
    font-family: inherit; /* takes the font family from the outer container */
@@ -275,6 +279,7 @@ button:focus {
    background-color: #357b70;
    color: #ffffff;
    text-decoration: none;
+   margin: 20px auto;
    padding: 9px;
    border-radius: 20px;
    /* width of the border, type, color */
@@ -288,7 +293,7 @@ button:focus {
    
   }
 
-
+  button,
   .button{
    border:none; /*overwrites browser defaults and resets the border */
    display: inline-block;
