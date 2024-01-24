@@ -610,8 +610,9 @@ button:focus {
         font-size: 14px;
     }
     .caption{
-        width: 70%;
+        width: 80%;
         text-align: center;
+        font-size: 14px;
     }
 }
 
