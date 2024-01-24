@@ -179,42 +179,14 @@ button:focus {
    font-weight: 500;
 } 
 
-table{
-    background-color: #fff;
-    border: 1px solid;
-    text-align: center;
-} 
 
-th{
-    background-color: #fff;
-    border: 1px solid;
-    text-align: center;
-} 
-
-td{
-    background-color: #fff;
-    border: 1px solid;
-    text-align: center;
-}
-
- .about-me-content__table{
-    width: 50%;
-   
-}
-
-.about-me-content__list{
-    padding: 0;
-    list-style-type: none;
-} 
-
-.about-me-content__list{
-    padding: 0;
-    list-style-type: none;
-} 
 .about-me__blurb{
-    margin: 0;
+    flex-wrap: wrap;
+    width: 43%;
+    margin: 0 auto;
     font-family: 'Roboto';
     font-size: 18px;
+    font-weight: 500;
 }
 .caption{
     font-size: 14px
@@ -268,7 +240,7 @@ td{
         -ms-transform: scale(1.05);
             transform: scale(1.05);
     cursor: pointer;
-    background-color: darken( #fff, 5%);
+    background-color: #f2f2f2;
 }
 
 .grid__item:last-child{
@@ -622,6 +594,17 @@ td{
 
     .about-me-content{
         padding: 20px;
+    }
+    .about-me__blurb{
+        width: 90%;
+        margin: 0px auto;
+        font-size: 16px;
+    }
+    .homepage-intro{
+        text-align: center;
+        font-size: 16px;
+        width: 90%;
+        margin: 0px auto;
     }
 }
 

@@ -204,9 +204,12 @@ table, th, td{
     list-style-type: none;
 } 
 .about-me__blurb{
-    margin: 0;
+    flex-wrap: wrap;
+    width: 43%;
+    margin: 0 auto;
     font-family: 'Roboto';
     font-size: var(--standard-font);
+    font-weight: var(--medium);
 }
 .caption{
     font-size: var(--xsmall-font)
@@ -470,6 +473,17 @@ table, th, td{
 
     .about-me-content{
         padding: 20px;
+    }
+    .about-me__blurb{
+        width: 90%;
+        margin: 0px auto;
+        font-size: var(--small-font);
+    }
+    .homepage-intro{
+        text-align: center;
+        font-size: var(--small-font);
+        width: 90%;
+        margin: 0px auto;
     }
 }
 
