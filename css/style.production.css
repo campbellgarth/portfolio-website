@@ -251,6 +251,7 @@ td{
 .grid__item {
     display: inline-block;
     width: 33%;
+    background-color: #fff;
    }
    /* end grid fallback */
 
