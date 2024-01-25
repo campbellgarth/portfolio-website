@@ -293,6 +293,7 @@ td{
     grid-row-end: 3;
 }
    }
+
 /* shortform for the above:
 .grid__item:last-child {
     grid-column: 3 / 3;
