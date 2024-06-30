@@ -211,6 +211,11 @@ table, th, td{
     font-size: var(--standard-font);
     font-weight: var(--medium);
 }
+.about-meet__blurb{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 16px;
+}
 .caption{
     font-size: var(--xsmall-font)
 }
@@ -226,6 +231,18 @@ table, th, td{
     font-size: var(--standard-font);
     font-weight: var(--medium);
 }
+.meet-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.meet-info__item{
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--standard-font);
+    font-weight: var(--medium);
+}
+
 
 .work {
     text-align: center;

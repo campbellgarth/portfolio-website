@@ -48,7 +48,7 @@
             <a
               href="work.html"
               role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
+              class="navigation-list__item navigation-list__item"
               >Work</a
             >
           </li>
@@ -56,58 +56,56 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1 class="work">Work and Projects</h1>
+      <h1 class="work">Meet App</h1>
+      <p class="about-meet__blurb">
+        The Meet App is a serverless PWA built in React, using AWS. It allows
+        you to find events in a city near you. The application uses the Google
+        Calendar API to fetch upcoming events.
+      </p>
+      <div class="meet-info">
+        <a href="https://campbellgarth.github.io/meet/" target="_blank"
+          >See it live</a
+        ><a href="https://github.com/campbellgarth/meet" target="_blank"
+          >See the Github Repository</a
+        >
 
-        <div class="grid">
-          <!--Insert grid here-->
-          <div class="grid__item">
-            <h2>Progressive Web App</h2>
-            <p>
-              A React-based PWA hosted on AWS, the Meet App allows you to find
-              events near you.
-            </p>
-            <a href="meetapp.html">Find out more</a>
-          </div>
+        <img
+          class="meet-info__item"
+          src="./img/meet-app-screenshot.PNG"
+          alt="screenshot of the Meet app"
+          height="70%"
+          width="70%"
+        />
+        <section>
+          <h2>Key Features</h2>
+          <h3>Users are able to:</h3>
 
-          <div class="grid__item">
-            <h2>Native MacOS application</h2>
-            <p>
-              Within this project, I was responsible for the front-end. It is
-              written in JavaFX.
-            </p>
-            <a href="#">See project on Github</a>
-          </div>
-
-          <div class="grid__item">
-            <h2>Node.js pdf generation</h2>
-            <p>
-              Within this project, I created a service that generates pdf out of
-              webpages with the help of a node.js server.
-            </p>
-            <a href="#">See project on Github</a>
-          </div>
-
-          <div class="grid__item">
-            <h2>Styleguide for portfolio page</h2>
-            <p>
-              Here you can find the styleguide I've created for this portfolio
-              page. It was created with the livingstyleguide gem and grunt.
-            </p>
-            <a href="#">See styleguide</a>
-          </div>
-
-          <div class="grid__item">
-            <h2>Your project?</h2>
-            <p>
-              I can help in realizing front-end and back-end projects with the
-              following technologies: React.js, JavaScript, Java, JavaFX, HTML,
-              and CSS. I am also happy to learn other techologies if needed.
-            </p>
-            <a href="./contact.html">Contact me</a>
-          </div>
-        </div>
-      </section>
+          <ul>
+            <li>Filter events by city</li>
+            <li>Show/Hide event details</li>
+            <li>Specify number of events</li>
+            <li>Use the app when offline</li>
+            <li>Add an app shortcut to their homescreen</li>
+            <li>Display charts visualizing event details</li>
+          </ul>
+          <h2>Technologies used</h2>
+          <h3>Rendering:</h3>
+          <ul>
+            <li>Create React App</li>
+            <li>Github Pages</li>
+            <li>React</li>
+            <li>AWS</li>
+            <li>Google Calendar API</li>
+            <li>Recharts</li>
+          </ul>
+          <h3>Testing:</h3>
+          <ul>
+            <li>Jest</li>
+            <li>Jest-Cucumber</li>
+            <li>Puppeteer</li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer class="page-footer">
       <p>Find me on:</p>
