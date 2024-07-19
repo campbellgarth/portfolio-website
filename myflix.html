@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Meet App</title>
+    <title>Chat App</title>
     <link rel="icon" type="image/png" href="./img/favicon.png" sizes="32x32" />
     <link
       rel="stylesheet"
@@ -56,53 +56,90 @@
       </nav>
     </header>
     <main>
-      <h1 class="work">Meet App</h1>
+      <h1 class="work">myFlix API and App</h1>
       <p class="about-app__blurb">
-        The Meet App is a serverless PWA built in React, using AWS. It allows
-        you to find events in a city near you. The application uses the Google
-        Calendar API to fetch upcoming events.
+        myFlix is an API built using Express, Node.JS, and MongoDB. The
+        client-side was originally built using React, but it was later
+        reimagined using Angular. Both Apps allow you to view and save your
+        favorite movies to your profile.
       </p>
       <div class="app-info">
-        <a href="https://campbellgarth.github.io/meet/" target="_blank"
-          >See it live</a
-        ><a href="https://github.com/campbellgarth/meet" target="_blank"
-          >See the Github Repository</a
+        <a href="https://github.com/campbellgarth/myFlix" target="_blank"
+          >See the myFlix API Github Repository</a
+        >
+        <a href="https://github.com/campbellgarth/myFlix-client" target="_blank"
+          >See the myFlix React Github Repository</a
+        >
+        <a
+          href="https://github.com/campbellgarth/myFlix-angular-client/"
+          target="_blank"
+          >See the myFlix Angular Github Repository</a
+        >
+        <div class="screenshots">
+          <img
+            class="screenshot"
+            src="./img/myflix-react-screenshot.PNG"
+            alt="screenshot of the myflix React App"
+            height="50%"
+            width="50%"
+          />
+          <img
+            class="screenshot"
+            src="./img/myflix-angular-screenshot.PNG"
+            alt="screenshot of the myFlix Angular App"
+            height="50%"
+            width="50%"
+          />
+        </div>
+
+        <a href="https://myflixmovies-db.netlify.app/" target="_blank"
+          >Visit the myFlix React App live (left)</a
+        >
+        <a
+          href="https://campbellgarth.github.io/myflix-angular/"
+          target="_blank"
+          >Visit the myFlix Angular App live (right)</a
         >
 
-        <img
-          class="app-info__item"
-          src="./img/meet-app-screenshot.PNG"
-          alt="screenshot of the Meet app"
-          height="70%"
-          width="70%"
-        />
-        <section>
+        <section class="app-info">
           <h2>Key Features</h2>
-          <h3>Users are able to:</h3>
 
           <ul>
-            <li>Filter events by city</li>
-            <li>Show/Hide event details</li>
-            <li>Specify number of events</li>
-            <li>Use the app when offline</li>
-            <li>Add an app shortcut to their homescreen</li>
-            <li>Display charts visualizing event details</li>
+            <li>
+              Users are able to login or register for an account from the home
+              page.
+            </li>
+            <li>
+              Once authenticated, the user can view all movies. Each movie has
+              information about the genre, director, and movie description.
+            </li>
+            <li>
+              Users are able to add or remove movies from their favorites list,
+              which will appear on their profile.
+            </li>
+            <li>Users are able to edit their profile information.</li>
           </ul>
           <h2>Technologies used</h2>
-          <h3>Rendering:</h3>
+
+          <h3>myFlix API:</h3>
           <ul>
-            <li>Create React App</li>
-            <li>Github Pages</li>
-            <li>React</li>
-            <li>AWS</li>
-            <li>Google Calendar API</li>
-            <li>Recharts</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Heroku</li>
           </ul>
-          <h3>Testing:</h3>
+          <h3>myFlix React:</h3>
           <ul>
-            <li>Jest</li>
-            <li>Jest-Cucumber</li>
-            <li>Puppeteer</li>
+            <li>React</li>
+            <li>React Bootstrap</li>
+            <li>Parcel</li>
+            <li>Netlify</li>
+          </ul>
+          <h3>myFlix Angular:</h3>
+          <ul>
+            <li>Angular</li>
+            <li>Angular Material</li>
+            <li>Github Pages</li>
           </ul>
         </section>
       </div>

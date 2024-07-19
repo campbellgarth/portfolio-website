@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact Campbell Garth</title>
+    <title>Chat App</title>
     <link rel="icon" type="image/png" href="./img/favicon.png" sizes="32x32" />
     <link
       rel="stylesheet"
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/style.production.css" />
@@ -40,15 +40,15 @@
             >
           </li>
           <li role="presentation">
-            <a
-              href="contact.html"
-              role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
               >Contact</a
             >
           </li>
           <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item"
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item"
               >Work</a
             >
           </li>
@@ -56,32 +56,59 @@
       </nav>
     </header>
     <main>
-      <div class="contact-info">
-        <div>
-          <h1>Contact me</h1>
-
-          <p class="contact-info__item">Address:</p>
-
-          Carl-Friedrich-Gauß-Straße 2 <br />
-
-          28357 Bremen <br />
-
-          Deutschland <br />
-          <p class="contact-info__item">Telephone:</p>
-          <a href="tel:+4915226778021"> (+49)1522-677-8021</a> <br />
-
-          <p class="contact-info__item">Email:</p>
-          <a href="mailto:campbell.garth13@gmail.com"
-            >campbell.garth13@gmail.com</a
-          >
-          <br />
-
-          <!--Skype: <a href="skype:live:campbell.garth13">live:campbell.garth13</a>-->
+      <h1 class="work">Chat App</h1>
+      <p class="about-app__blurb">
+        Chat is an RTA chatting app made in React Native. Users are able to chat
+        in real-time, send photos, and send their location.
+      </p>
+      <div class="app-info">
+        <a href="https://github.com/campbellgarth/chat/" target="_blank"
+          >See the Github Repository</a
+        >
+        <div class="screenshots">
+          <img
+            class="screenshot"
+            src="./img/chat-app-homepage-screenshot.PNG"
+            alt="screenshot of the Chat App Homepage"
+            height="22%"
+            width="22%"
+          />
+          <img
+            class="screenshot"
+            src="./img/chat-app-screenshot.PNG"
+            alt="screenshot of the Chat App main page"
+            height="22.5%"
+            width="22.5%"
+          />
         </div>
 
-        <a href="mailto:campbell.garth13@gmail.com" class="button"
-          >Contact me</a
-        >
+        <section>
+          <h2>Key Features</h2>
+          <h3>Users are able to:</h3>
+
+          <ul>
+            <li>
+              Enter their name and choose a background color for the chat screen
+              before joining the chat.
+            </li>
+            <li>
+              See a page that displays the conversation, as well as an input
+              field and submit button.
+            </li>
+            <li>Send images from their gallery</li>
+            <li>Send a photo taken from their camera</li>
+            <li>Send their location</li>
+            <li>Use the app online or offline</li>
+          </ul>
+          <h2>Technologies used</h2>
+          <ul>
+            <li>React Native</li>
+            <li>Gifted Chat</li>
+            <li>Expo</li>
+            <li>Android Studio</li>
+            <li>Google Firebase/Firestore</li>
+          </ul>
+        </section>
       </div>
     </main>
     <footer class="page-footer">
